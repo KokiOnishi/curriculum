@@ -1,0 +1,75 @@
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: 300px; 
+    margin: 0 auto;
+  }
+  .contents {
+    width: 300px;
+  }
+  .left {
+    width: 100px;
+  }
+  .right {
+    width: 200px;
+  }
+  .right-up {
+    width: 200px;
+  }
+  .right1 {
+    width: 75px;
+  }
+  .right2 {
+    width: 125px;
+  }
+  .right3{
+    width: 125px;
+  }
+  .right-bottom {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .wrapper {
+    width: 150px;
+  }
+  .contents {
+    height: 450px;
+  }
+  .left {
+    float: none;
+    height: 100px;
+    width: 150px
+  }
+  .right {
+    float:none;
+    height: 350px;
+    width: 150px;
+  }
+  .right-up {
+    height: 250px;
+  }
+  .right1 {
+    float: none;
+    height: 100px;
+    width: 150px
+  }
+  .right2 {
+    float: none;
+    height: 50px;
+    width: 150px;
+  }
+  .right3 {
+    float: none;
+    height: 100px;
+    width: 150px;
+  }
+  .right-bottom {
+    height: 100px;
+    width: 150px;
+  }
+  .footer {
+    height: 100px;
+  }
+}
+/* この書き方はやめたほうがいい。親要素の大きさを決めたら子要素は100%とかの%を使って大きさを決定するべき。 */
